@@ -1,0 +1,12 @@
+[package]
+name = "rom2ips"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/brownian-motion/rom2ips/"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ips = { git = "https://github.com/brownian-motion/ips", branch="file_manip" }
+clap = { version = "^3.0.14", features = ["derive"] }
